@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - prints alphabet
+ * main - Prints alphabet
  * @void: Empty parameter list for main.
  *
  * Description: prints the alphabet in lower case
