@@ -6,9 +6,8 @@
  * main - Positive or Negative - print sign of random number
  * @void: Empty parameter list for main.
  *
- * Description: this if/else statement declares the sign (positive 
- * or negative) of a random number. It also states if the value
- * is zero.
+ * Description: this if/else statement declares the sign of a random number.
+ * it also states if value is zero.
  *
  * Return: 0 for success
  */
