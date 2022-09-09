@@ -1,83 +1,40 @@
 #include <stdlib.h>
-
 #include <stdio.h>
-
 #include <time.h>
 
-
-
 /**
+ * main - Positive or Negative - print sign of random number
+ * @void: Empty parameter list for main.
  *
- *  * main - Positive or Negative - print sign of random number
+ * Description: this if/else statement declares the sign (positive
+ * or negative) of a random number. It also states if the value 
+ * is zero.
  *
- *   * @void: Empty parameter list for main.
- *
- *    *
- *
- *     * Description: this if/else statement delares the sign (positive
- *
- *      * or negative) of a random number. It also states if the value
- *
- *       * is zero.
- *
- *        *
- *
- *         * Return: 0 for success
- *
- *         */
-
+ * Return: 0 for success
+ */
 int main(void)
-
 {
+	/**
+	 * variable n has been declared
+	 * coding then assigns the random value.
+	 */
+	int n;
 
-	  /**
-	   *
-	   *    * variable n has been declared
-	   *
-	   *       * coding then assigns the random value.
-	   *
-	   *          */
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
-		int n;
+	if (n > 0)
+	{
+		printf("%d is posiive\n", n);
+	}
+	else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	}
+	else
+	{
+		printf("%d is negative\n", n);
+	}
 
-
-
-			srand(time(0));
-
-				n = rand() - RAND_MAX / 2;
-
-
-
-					if (n > 0)
-
-							{
-
-										printf("%d is positive\n", n);
-
-											}
-
-						else if (n == 0)
-
-								{
-
-											printf("%d is zero\n", n);
-
-												}
-
-							else
-
-									{
-
-												printf("%d is negative\n", n);
-
-													}
-
-
-
-								return (0);
-
-}
-
-Footer
-
-© 2022 Git
+	return (0);
+}	
