@@ -6,10 +6,9 @@
  * main - Prints alphabet
  * @void: Empty parameter list for main.
  *
- * Description: Prints the alphabet in lower case
- * Can only use putchar
- *
- * Retrurn: 0 for success
+ * Description: Prints the alphabet in lower case,
+ * followed by a new line
+ * Return: Always 0 (success)
  */
 int main(void)
 {
