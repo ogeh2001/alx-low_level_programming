@@ -6,7 +6,7 @@
  * main - Prints alphabet
  * @void: Empty parameter list for main.
  *
- * Description: prints the alphabet in lower case
+ * Description: Prints the alphabet in lower case
  * Can only use putchar
  *
  * Retrurn: 0 for success
