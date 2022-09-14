@@ -14,7 +14,7 @@ void jack_bauer(void)
 	while (x < 1440)
 	{
 
-		_putchar(a + '0');
+	        _putchar(a + '0');
 		_putchar(b + '0');
 		_putchar(':');
 		_putchar(c + '0');
@@ -24,7 +24,7 @@ void jack_bauer(void)
 		d++;
 		if (d > 9)
 		{
-			d = 0;
+	 	        d = 0;
 			c++;
 		}
 		if (c > 5)
