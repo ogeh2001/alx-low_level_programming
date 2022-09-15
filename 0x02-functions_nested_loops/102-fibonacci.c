@@ -9,26 +9,22 @@
 
 int main(void)
 {
-	int count = 1;
-	long int i = 1, j = 2;
-	long int k;
+	int i = 0;
+	long int a = 0, b = 1, next;
 
-	printf("%lu, ", j);
-	while (count <= 50)
+	while (i < 50)
 	{
-		if (count == 50)
-		{
-			printf("%lu\n", j);
-		}
-		else
-		{
-			printf("%lu, ", j);
-		}
+		next = a + b;
+		a = b;
+		b = next;
+		printf("%lu", next);
 
-		k = j;
-		j += i;
-		i = k;
-		count++;
+		if (i < 49)
+		{
+			printf(", ");
+		}
+		i++;
 	}
+	putchar('\n');
 	return (0);
 }
