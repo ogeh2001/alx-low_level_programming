@@ -1,11 +1,8 @@
 #include <stdio.h>
 
 /**
- *
- * main - causes an infinite loop
- *
+ * main - causes an indefinite loop
  * Return: 0
- *
  */
 
 int main(void)
@@ -25,25 +22,3 @@ int main(void)
 
 	return (0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
