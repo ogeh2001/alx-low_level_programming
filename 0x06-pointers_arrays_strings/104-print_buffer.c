@@ -16,7 +16,7 @@ void print_line(char *c, int s, int l)
 	for (j = 0; j <= 9; j++)
 	{
 		if (j <= s)
-			printf("%02X", c[1 * 10 + j]);
+			printf("%02X", c[l * 10 + j]);
 		else
 			printf(" ");
 		if (j % 2)
@@ -24,8 +24,8 @@ void print_line(char *c, int s, int l)
 	}
 	for (k = 0; k <= s; k++)
 	{
-		if (c[1 * 10 + k] > 31 && c[1 * 10 + k] < 127)
-			putchar(c[1 * 10 + k]);
+		if (c[l * 10 + k] > 31 && c[l * 10 + k] < 127)
+			putchar(c[l * 10 + k]);
 		else
 			putchar('.');
 	}
